@@ -4,8 +4,8 @@
 
 # Introduction
 
-Mavetwitter is a web application backed by Django where every user can create, update and delete post on the feed(with timestamp). New users can set profile picture(also update later). Users can reset password via registered e-mail.  
-Application uses PostgreSQL(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
+Whatmave is a room chatting web platform where anyone needs just to authenticate using google ID and he/she can gain access to all the chats by any one in any room that exist, and also can message in any group. No one can delete any message or room. Firestore database is used to store the messages and rooms, and Javascript is used to create the complete app. All the other dependencies used are mentioned below. 
+  Heroku is used for deloyment.
 
 [<img src="https://github.com/mavenickk/whatmave/blob/master/whatmave_live.gif" width="600" height="270">](https://mavetwitter.herokuapp.com/)
 
@@ -17,7 +17,7 @@ Application uses PostgreSQL(relation database) to store user information and the
 - [React Router](https://reactrouter.com/) - a collection of navigational components that compose declaratively with your application.
 - [React Context API](https://reactjs.org/docs/context.html) - Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 - [Google Authentication](https://firebase.google.com/docs/auth/web/google-signin) - Let user sign in directlt using his Google credentials
-- - [Heroku](https://www.heroku.com) - Deloyment
+- [Heroku](https://www.heroku.com) - Deloyment
 
 ## Key features:
 - Authentication. (register, login, logout)
