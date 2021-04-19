@@ -7,24 +7,27 @@
 Mavetwitter is a web application backed by Django where every user can create, update and delete post on the feed(with timestamp). New users can set profile picture(also update later). Users can reset password via registered e-mail.  
 Application uses PostgreSQL(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
 
-[<img src="https://github.com/mavenickk/mavetwitter/blob/master/live.gif" width="600" height="270">](https://mavetwitter.herokuapp.com/)
+[<img src="https://github.com/mavenickk/whatmave/blob/master/whatmave_live.gif" width="600" height="270">](https://mavetwitter.herokuapp.com/)
 
 
 ## Tools:
-- [Bootstrap](https://getbootstrap.com) - A CSS framework
-- [Django](https://www.djangoproject.com) - Backend framework in python
-- [PostgreSQL](https://www.postgresql.org) - A relational database system
-- [Heroku](https://www.heroku.com) - Deloyment
-- [AWS](https://aws.amazon.com) - S3 bucket, IAM
-- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Let browser to access AWS bucket
+- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Firebase](https://firebase.google.com/) - Firebase helps you build and run successful apps
+- [MaterialUI](https://material-ui.com/) - React components for faster and easier web development.
+- [React Router](https://reactrouter.com/) - a collection of navigational components that compose declaratively with your application.
+- [React Context API](https://reactjs.org/docs/context.html) - Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+- [Google Authentication](https://firebase.google.com/docs/auth/web/google-signin) - Let user sign in directlt using his Google credentials
+- - [Heroku](https://www.heroku.com) - Deloyment
 
 ## Key features:
 - Authentication. (register, login, logout)
-- Reset password via SMTP. (mail received with reset password link!)
-- Create, update, delete post with timestamp. (only author can edit)
-- Pagination (per page 5 post) - navigation to first, previous 3, current, next 3 and last page in the bottom.
-- Profile update with picture.
-- View all post by a user in page.
+- Create a new group
+- Message in any group and get instant replies with fast and secure firestore database
+- Last seen time and last message shown as it does in whatsapp
+- Random avatars everytime it is getting loaded
+- View all messages belonging to a certain group
+- Style of sent and received messages are different
+- sidebar and chat section both are scrollable
 
 
 
@@ -33,39 +36,23 @@ Application uses PostgreSQL(relation database) to store user information and the
 **Step 1: Clone the code into a fresh folder**
 
 ```
-$ git clone https://github.com/mavenickk/mavetwitter.git
-$ cd mavetwitter
+$ git clone https://github.com/mavenickk/whatmave.git
+$ cd whatmave
 ```
 
-**Step 2: Create a Virtual Environment and install Dependencies**
-
-Create a new Virtual Environment for the project and activate it. If you don't have the `virtualenv` command yet, you can find installation [instructions here](https://virtualenv.readthedocs.io/en/latest/).
+**Step 2: Open the folder in any editor (e.g. Visual Studio Code)**
 
 ```
-$ virtualenv venv
-$ source venv/bin/activate
-```
-
-Next, we need to install the project dependencies, which are listed in `requirements.txt`.
-
-```
-(venv) $ pip install -r requirements.txt
-```
-
-**Step 3: Run application**
-
-Now we're ready to start our server which is as simple as:
+$ code whatmave
+$ npm i react
+$ npm install -g firebase-tools
+" change firebase.js file with whatever your firebase config data is"
+$ npm - @material-ui/icons
+$ npm i firebase
+$ npm i react-router-dom
 
 ```
-(venv) $ python manage.py runserver
-```
 
-Open http://localhost:8000 (port number is prompted) to view it in your browser.
-
-The app will automatically reload if you make changes to the code.
-You will see the build errors and warnings in the console.(DEBUG = True)
-
-Try hosted app [here.](https://mavetwitter.herokuapp.com)
 
 
 
