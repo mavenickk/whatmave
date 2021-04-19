@@ -1,4 +1,4 @@
-# mavetwitter
+# whatmave
 
 ## [Live Demo](https://whatmave.herokuapp.com/)
 
