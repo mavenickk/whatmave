@@ -11,23 +11,23 @@ Whatmave is a room chatting web platform where anyone needs just to authenticate
 
 
 ## Tools:
-- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
-- [Firebase](https://firebase.google.com/) - Firebase helps you build and run successful apps
+- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Firebase](https://firebase.google.com/) - Firebase helps you build and run successful apps.
 - [MaterialUI](https://material-ui.com/) - React components for faster and easier web development.
 - [React Router](https://reactrouter.com/) - a collection of navigational components that compose declaratively with your application.
 - [React Context API](https://reactjs.org/docs/context.html) - Context provides a way to pass data through the component tree without having to pass props down manually at every level.
-- [Google Authentication](https://firebase.google.com/docs/auth/web/google-signin) - Let user sign in directlt using his Google credentials
-- [Heroku](https://www.heroku.com) - Deployment
+- [Google Authentication](https://firebase.google.com/docs/auth/web/google-signin) - Let user sign in directlt using his Google credentials.
+- [Heroku](https://www.heroku.com) - Deployment.
 
 ## Key features:
-- Authentication. (register, login, logout)
-- Create a new group
-- Message in any group and get instant replies with fast and secure firestore database
-- Last seen time and last message shown as it does in whatsapp
-- Random avatars everytime it is getting loaded
-- View all messages belonging to a certain group
-- Style of sent and received messages are different
-- sidebar and chat section both are scrollable
+- Authentication. (register, login, logout).
+- Create a new group.
+- Message in any group and get instant replies with fast and secure firestore database.
+- Last seen time and last message shown as it does in whatsapp.
+- Random avatars everytime it is getting loaded.
+- View all messages belonging to a certain group.
+- Style of sent and received messages are different.
+- sidebar and chat section both are scrollable.
 
 
 
